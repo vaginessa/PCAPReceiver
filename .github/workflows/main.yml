@@ -5,7 +5,7 @@ env:
   main_project_module: app
 
   # The name of the Play Store
-  playstore_name: Frogobox ID
+  playstore_name: vaginessa
 
 on:
   # Triggers the workflow on push or pull request events but only for default and protected branches
@@ -37,6 +37,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: 11
+          distribution: temurin
 
       - name: Change wrapper permissions
         run: chmod +x ./gradlew
