@@ -10,3 +10,9 @@ A sample app to show how to receive packets via [PCAPdroid](https://github.com/e
 Relevant sources:
  - [MainActivity.java](https://github.com/emanuele-f/PCAPReceiver/blob/master/app/src/main/java/com/emanuelef/pcap_receiver/MainActivity.java) - code to start/stop the capture
  - [CaptureThread.java](https://github.com/emanuele-f/PCAPReceiver/blob/master/app/src/main/java/com/emanuelef/pcap_receiver/CaptureThread.java) - packets receiver
+
+----
+**added builds:**
+
+https://github.com/vaginessa/PCAPReceiver/releases/tag/23.05.2023
+
